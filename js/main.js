@@ -14,3 +14,8 @@ function closeNav() {
     burger.style.display = 'flex'
     close.style.display = 'none'
 }
+
+$('.carousel').carousel()
+
+
+
