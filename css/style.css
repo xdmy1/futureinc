@@ -13,7 +13,7 @@ nav {
     width: 100%;
     right:0;
     top: 0;
-    background-color: #a200206e;
+    background-color: #e40303dc;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     color: white;
@@ -59,7 +59,7 @@ nav {
     left: 0;
     justify-content: space-between;
     padding-inline: 5rem;
-    background-color: #a200206e;
+    background-color: #e40303dc;
     
 }
 
@@ -164,7 +164,7 @@ a {
     align-items: center;
     width: 100%;
     height: fit-content;
-    padding-block: 24rem;
+    padding-block: 19rem;
     background-size: cover;
     border-image-source: linear-gradient(#53545546,#a7a8a838 );
     border-image-slice: fill 1;
@@ -173,11 +173,30 @@ a {
     color: white;
 }
 
+.hero-icons {
+    width: 50px;
+}
+.hero-contacts {
+    margin-bottom: 5rem;
+    width: 100%;
+    padding-block: .5rem;
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
 @media screen and (max-width: 1000px) {
     .hero-section {
-            padding-block: 22rem;
-           
-} }
+            padding-block: 20rem;
+    } 
+    
+        }
+
+        @media screen and (max-width: 500px) {
+            .hero-section {
+                    padding-block: 18rem;
+            } 
+            
+                }
 
 .hero-section h1 {
     font-size: 3.25rem;
@@ -307,7 +326,7 @@ object-fit: cover;
 }
 
 .map {
-    background-color: #A20021;
+    background-color: #e40303dc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -351,7 +370,7 @@ object-fit: cover;
   }
   
   .footer {
-    background-color: #a200206e;
+    background-color: #ff232e9a;
     padding: 50px 0;
     color: white;
   }
