@@ -307,7 +307,7 @@ object-fit: cover;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.329);
     color: #fff;
     padding: 20px;
     transform: translateY(55%);
@@ -442,6 +442,36 @@ object-fit: cover;
   .footer-col .social-links1 a:hover {
     transform: translateY(-10px);
     box-shadow: 0px 0px 10px var(--yellow);
+  }
+
+  .mai-multe {
+    display: none;
+    transition: .2s ease;
+  }
+  .mai-multe2 {
+    display: none;
+    transition: .2s ease;}
+  .mai-multe3 {
+    display: none;
+  }
+
+  
+  .view-less {
+    display: none;
+    transition: .2s ease;
+  }
+
+  .view-less,.more-cars-button {
+    padding: 1rem;
+    background-color: rgb(241, 82, 95);
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: white;
+  }
+  .view-less,.more-cars-button:hover {
+    opacity: .9;
+    cursor: pointer;
   }
 
   @media screen and (max-width: 770px){
