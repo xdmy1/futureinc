@@ -3,10 +3,384 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Respect Auto - Inchirieri</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousels.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <div class="desktop-nav">
+            <div class="right">
+                <a href="#">
+                    <img src="assets/logo.png" alt="Logo" class="nav-logo">
+                <p>Respect Auto</p></a>
+            </div>
+            <div class="middle ">
+                <li><a href="#">Home</a></li>
+                <li><a href="#masini">Cars</a></li>
+                <li><a href="#rezerva">Reserve</a></li>
+                <li><a href="#locatia">Location</a></li>
+                <li><a href="#contacte">Contacts</a></li>
+            </div>
+            <div class="right">
+                <a href="/#home">RO</a>
+                <a href="index-ru.html">RU</a>
+                <a href="index-en.html">EN</a>
+            </div>
+        </div>
+        <ul class="mobile-nav">
+            <div class="top">
+                <a href="#" class="logo-container"><img src="assets/logo.png" alt="Logo" class="nav-logo">
+                    <p>Respect Auto</p></a>
+                <li class="burger" onclick=openNav()><a href="#"><img class="svg-nav" src="assets/burger-menu-left-svgrepo-com.svg" alt=""></a></li>
+                <li class="close" onclick=closeNav()><a href="#"><img class="svg-nav nav-close" src="assets/close-svgrepo-com.svg" alt=""></a></li>               
+            </div>
+            <div class="mobile-li">
+                <li onclick=closeNav()><a href="#">Home</a></li>
+                <li onclick=closeNav()><a href="#masini">Cars</a></li>
+                <li onclick=closeNav()><a href="#rezerva">Reserve</a></li>
+                <li onclick=closeNav()><a href="#locatia">Location</a></li>
+                <li onclick=closeNav()><a href="#contacte">Contacts</a></li>
+                <li class="language-change-mobile" onclick=closeNav()>
+                    <a href="/#home">RO</a>
+                    <a href="index-ru.html">RU</a>
+                    <a href="index-en.html">EN</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p>Contact Us! </p>
+                <a class="telephone-number" href="tel:+37369428244">+37369428244</a>
+                <div class="hero-contacts">
+                    
+                    <a href="https://wa.me/37368327082"><img class="hero-icons" src="assets/whatsapp.svg" alt=""></a>
+                    <a href="https://t.me/+37368327082"><img class="hero-icons" src="assets/telegram.svg" alt=""></a>
+                    <a href="viber://chat?number=%2B37368327082"><img class="hero-icons" src="assets/viber.svg" alt=""></a>
+                </div>
+                <div class="hero-text">
+            <h1>Cars Renting</h1>
+            <p class="color-hero">Safe, comfortable, quick</p>
+        </div>
+        </section>     
+
+        <section id="masini" class="servicii">
+            <div class="our-team-text"><h2>Cars</h2></div>
+            <div class="cards">
+        <div class="card">
+            <img class="card-image" src="assets/masina1.png" alt="Serviciu1">
+            <div class="overlay">
+                <h2>Hyundai SantaFE</h2>
+                <p>2.0 diesel, automatic</p>
+                <p>1-2 zile / 70€ <br>
+                    3-7zile / 55€ <br>
+                    8-20zile / 50€ <br>   
+                    21-45zile / 45€ <br>
+                    46zile / 30€</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="assets/masina2.png" alt="Serviciu1">
+            <div class="overlay">
+                <h2>Mercedes GLC 300</h2>
+                <p>2.0 benzina, automatic </p>
+                <p>1-2zile / 85€ <br>
+                    3-7zile / 75€ <br>
+                    8-20zile / 65€ <br>
+                    21-45zile / 45€ <br>
+                    46zile / 35€</p>
+                
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="assets/masina3.png" alt="Serviciu1">
+            <div class="overlay">
+                <h2>Audi A6</h2>
+                <p>2.0 benzina, automatic</p>
+                <P>1-2zile / 80€ <br>
+                    3-7zile / 60€ <br>
+                    8-20zile / 50€ <br>
+                    21-45zile / 40€ <br>
+                    46zile / 35€</P>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="assets/masina4.png" alt="Serviciu1">
+            <div class="overlay">
+                <h2>VW Jetta </h2>
+                <p>1.4 Hybrid automatic</p>
+                <p>1-2zile / 45€ <br>
+                    3-7zile / 35€ <br> 
+                    8-20zile / 30€ <br>
+                    21-45zile / 22€ <br>
+                    46zile / 17€</p>
+            </div>
+         </div>
+        </div>
+        <div class="view-more"><button class="more-cars-button" onclick=moreCars()>View More ></button></div>
+
+        <div class="cards mai-multe">
+            <div class="card">
+                <img class="card-image" src="assets/masina5.png" alt="Serviciu1">
+                <div class="overlay">
+                    <h2>Renault Captur</h2>
+                    <p>1.5 diesel automatic</p>
+                    <p>1-2zile / 40€ <br>
+                        3-7zile / 28€ <br> 
+                        8-20zile / 24€ <br>
+                        21-45zile / 19€ <br>
+                        46zile / 17€</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="assets/masina6.png" alt="Serviciu1">
+                <div class="overlay">
+                    <h2>BMW X5</h2>
+                    <p>2.0 PlugIn Hybrid automatic</p>
+                    <p>1-2zile / 100€ <br>
+                        3-7zile / 80€ <br> 
+                        8-20zile / 70€ <br>
+                        21-45zile / 50€ <br>
+                        46zile / 40€</p>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="assets/masina7.png" alt="Serviciu1">
+                <div class="overlay">
+                    <h2>BMW X5</h2>
+                    <p>2.0 PlugIn Hybrid automatic</p>
+                    <p>1-2zile / 100€ <br>
+                        3-7zile / 80€ <br> 
+                        8-20zile / 70€ <br>
+                        21-45zile / 50€ <br>
+                        46zile / 40€</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="assets/masina8.png" alt="Serviciu1">
+                <div class="overlay">
+                    <h2>Mercedes GLC 300</h2>
+                    <p> 2.0 benzin automatic</p>
+                    <p>1-2zile / 85€ <br>
+                        3-7zile / 75€ <br>
+                        8-20zile / 65€ <br>
+                        21-45zile / 45€ <br>
+                        46zile / 35€</p>
+                </div>
+             </div>
+            </div>
+            <div class="cards mai-multe3">
+                <div class="card">
+                    <img class="card-image" src="assets/masina9.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Kia Soul</h2>
+                        <p>Full Electric - 190km range</p>
+                        <p>1-2zile / 35€ <br>
+                            3-7zile / 23€ <br> 
+                            8-20zile / 19€ <br>
+                            21-45zile / 17€ <br>
+                            46zile / 15€</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="assets/masina10.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Kia Niro</h2>
+                        <p>1.6 PlugIn Hybrid automatic</p>
+                        <p>1-2zile / 50€ <br>
+                            3-7zile / 35€ <br>
+                            8-20zile / 30€ <br>
+                            21-45zile / 20€ <br>
+                            46zile / 19€</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="assets/masina11.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Kia Niro</h2>
+                        <p> 1.6 PlugIn Hybrid automatic</p>
+                        <p>1-2zile / 50€ <br>
+                            3-7zile / 35€ <br>
+                            8-20zile / 30€ <br>
+                            21-45zile / 20€ <br>
+                            46zile / 19€</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="assets/masina12.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Peugeot 208</h2>
+                        <p>1.4 diesel automatic</p>
+                        <P>1-2zile / 27€ <br>
+                            3-7zile / 23€ <br>
+                            8-20zile / 19€ <br>
+                            21-45zile / 17€ <br>
+                            46zile / 15€</P>
+                    </div>
+                 </div>
+                </div>
+            <div class="cards mai-multe2">
+                <div class="card">
+                    <img class="card-image" src="assets/masina13.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Renault Captur</h2>
+                        <p>1.5 diesel automatic</p>
+                        <p>1-2zile / 40€ <br>
+                            3-7zile / 28€ <br>
+                            8-20zile / 24€ <br> 
+                            21-45zile / 19€ <br>
+                            46Zile / 17€</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="assets/masina14.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Kia Niro</h2>
+                        <p> 1.6 PlugIn Hybrid automatic</p>
+                        <p>1-2zile / 50€ <br>
+                            3-7zile / 35€ <br>
+                            8-20zile / 30€ <br>
+                            21-45zile / 20€ <br>
+                            46zile / 19€</p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="assets/masina15.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Peugeot 208</h2>
+                        <p>1.4 diesel automatic</p>
+                        <P>1-2zile / 27€ <br>
+                            3-7zile / 23€ <br>
+                            8-20zile / 19€ <br>
+                            21-45zile / 17€ <br>
+                            46zile / 15€</P>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="assets/masina16.png" alt="Serviciu1">
+                    <div class="overlay">
+                        <h2>Renault Captur</h2>
+                        <p>1.5 diesel automatic</p>
+                        <p>1-2zile / 40€ <br>
+                            3-7zile / 28€ <br>
+                            8-20zile / 24€ <br> 
+                            21-45zile / 19€ <br>
+                            46Zile / 17€</p>
+                    </div>
+                 </div>
+                </div>
+              <a href="#masini">  <button class="view-less" onclick=viewLess()>View Less</button></a>
+        </section>
+
+
+      
+
+        <section id="rezerva" class="form">
+            <form action="https://form.taxi/s/xi1yeyie" id="ft-form" method="POST" accept-charset="UTF-8">
+                <fieldset>
+                  <legend>Reserve a car</legend>
+                  <legend>Select a date</legend>
+                    <label>
+                      <input type="date" name="Selectati data" required>
+                    </label>
+                  <label>
+                    Name
+                    <input type="text" name="name" required>
+                  </label>
+                  <div class="two-cols">
+                    <label>
+                      E-mail adress
+                      <input type="email" name="email" required>
+                    </label>
+                    <label>
+                      Phone number
+                      <input type="tel" name="phone" required>
+                    </label>
+                  </div>
+                  <legend>Select a car</legend>
+                    <label class="list1" for="transport">
+                      <input class="list1" list="list1" id="transport" name="transport">
+                      <datalist class="list1" id="list1">
+                        <option>Hyundai SantaFE</option>
+                        <option>Mercedes GLC 300</option>
+                        <option>Audi A6</option>
+                        <option>VW Jetta</option>
+                        <option>Renault Captur</option>
+                        <option>BMW X5</option>
+                        <option>Kia Soul</option>
+                        <option>Kia Niro</option>
+                        <option>Peugeot 208</option>
+   
+                            
+                      </datalist>
+                    </label>
+                </fieldset>
+                  
+                <div class="btns">
+                  <input type="text" name="_gotcha" value="" style="display:none;">
+                  <input class="rezerveaza-trimite" type="submit" value="Send">
+                </div>
+              </form>
+        </section>
+
+
+        <section id="locatia" class="map">
+            <div class="map-text"><div class="our-team-text"><h2>Location</h2></div></div>
+            <div class="paragraf-map"><p>Botanica, Chisinau City</p></div>
+            <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2722.3668449171355!2d28.861748908975134!3d46.97412883097372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9793975c22a23%3A0xd6ca41195738f503!2sstr.%20Nichita%20Stanescu!5e0!3m2!1sro!2s!4v1719085978542!5m2!1sro!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section> 
+
+        <footer id="contacte" class="footer">
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-logo">
+                        <a href="#hero"><img src="assets/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="footer-col1">
+                        <h4 lg="FooterInfoTitle">General Information</h4>
+                        <ul>
+                            <li><a lg="despre" href="#">Home</a></li>
+                            <li><a lg="servicii" href="#masini">Cars</a></li>
+                            <li><a lg="recenzii" href="#rezerva">Reserve</a></li>
+                            <li><a lg="locatia" href="#locatia">Locatia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col1">
+                        <h4 lg="FooterContactTitle">Contact</h4>
+                        <ul class="contact-col1">
+                            <li class="footer-contact1"><i class="fa-solid fa-phone" alt="Telefon Icon"></i>
+                                <a href="tel:+37369428244">+373 69 428 244</a></li>
+                            <li class="footer-contact1"><img src="assets/email-icon.svg" alt="Email Icon"><a
+                                    href="mailto:contact@respectauto.md">contact@respectauto.md</a></li>
     
+                        </ul>
+                    </div>
+                    <div class="footer-col1">
+                        <h4>Social media</h4>
+                        <div class="social-links1">
+                            <a href="#" target="_blank"><img style="width: 30px;" src="assets/instagram.svg" alt="instagram"></a><a href="https://www.facebook.com" target="_blank"><img src="assets/facebook.svg" alt="facebook"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/main-en.js"></script>
 </body>
 </html>

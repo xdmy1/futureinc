@@ -66,11 +66,25 @@ nav {
 .mobile-nav .logo-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     font-weight: 600;
     color: #ffffff;
 }
-
+.mobile-nav p {
+  margin: 0;
+}
+.desktop-nav p{
+  margin: 0;
+}
+.telephone-number{
+  color: white;
+  text-decoration: underline;
+  transition: .2s;
+}
+.telephone-number:hover {
+  color: rgb(248, 152, 152);
+}
 .mobile-nav li a {
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
@@ -186,14 +200,14 @@ a {
 }
 @media screen and (max-width: 1000px) {
     .hero-section {
-            padding-block: 20rem;
+            padding-block: 19rem;
     } 
     
         }
 
         @media screen and (max-width: 500px) {
             .hero-section {
-                    padding-block: 18rem;
+                    padding-block: 16rem;
             } 
             
                 }
