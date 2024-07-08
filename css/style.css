@@ -296,27 +296,37 @@ object-fit: cover;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 
 }
-.card {
-    position: relative;
-    width: 325px;
-    height:  425px;
-    margin: 20px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 12px #000000;
+.masini {
+  padding: 5rem ;
 }
-.card-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: .5s ease;
+@media screen and  (max-width: 550px) {
+  .masini {
+    padding: 5rem 1rem;
+  }
 }
-.card-image:hover {
-    transform: scale(1.2);
+.carousel {
+  width: 350px;
 }
+.image-car {
+  width: 350px;
+  height: 330px;
+}
+@media screen and (max-width: 570px) {
+  .button-hide {
+    display: none;
+  }
 
+
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.144);
+}
+.carousel-caption p, h5 {
+  color: white;
+}
 .overlay {
   display: flex;
   flex-direction: column;
@@ -374,6 +384,9 @@ object-fit: cover;
 .footer-container {
     max-width: 1170px;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+   
   
   }
   
@@ -392,6 +405,7 @@ object-fit: cover;
     background-color: #ff232e9a;
     padding: 50px 0;
     color: white;
+    
   }
   
   .footer-col {
@@ -539,4 +553,6 @@ object-fit: cover;
         height: 3rem;
         background-color: gray
     }
-    
+    input {
+      height: 44px;
+    }
